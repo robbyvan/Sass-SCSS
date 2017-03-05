@@ -1,5 +1,22 @@
-@import "profile";
+$buttonBackground: #006699;
+$buttonColor: #fff;
+$buttonPadding: 5px;
 
-p {
-  font-size: 24px;
+.button {
+  background: $buttonBackground;
+  border-radius: 8px;
+  color: $buttonColor;
+  display: inline-block;
+  padding: $buttonPadding;
+  text-decoration: none;
+}
+
+.jumbo-button {
+  @extend .button;
+  padding: $buttonPadding + 30;
+}
+
+.light-button {
+  @extend .button;
+  background-color: $buttonBackground * 1.5;
 }
