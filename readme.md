@@ -2,6 +2,7 @@
 
 ##Notes
   + Variables
+    - $varName
     ```scss
     $main-color: #fff;
     ```
@@ -31,7 +32,7 @@
     }
     ```
   + Extend
-    @extend .whatever;
+    - @extend .whatever;
     ```scss
     .panel {
       background-color: lightgreen;
@@ -52,7 +53,7 @@
     }
     ```
   + Mixin
-    @mixin foo(param)
+    - @mixin foo(param)
     ```scss
     .panel {
       border: 3px solid gray;
