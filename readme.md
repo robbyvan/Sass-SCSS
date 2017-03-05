@@ -22,4 +22,12 @@
     }
     ```
   + Partials
-  
+    - main.scss
+    - _profile.scss
+    ```
+    @import "profile";
+    p {
+      font-size: 24px;
+    }
+    ```
+  + Extend
